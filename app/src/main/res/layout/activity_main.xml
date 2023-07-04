@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_drawable"
+    tools:context=".MainActivity">
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/song1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="20dp">
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/song1" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="283dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="0dp"
+            android:layout_toEndOf="@+id/imageView15"
+            app:srcCompat="@drawable/more" />
+
+        <TextView
+            android:id="@+id/songname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/imageView15"
+            android:fontFamily="@font/avenir"
+            android:text="Easy"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/artist1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/songname1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="-2dp"
+            android:layout_toEndOf="@+id/imageView15"
+            android:fontFamily="@font/avenir"
+            android:text="Troye Sivan"
+            android:textAlignment="center"
+            android:textColor="#B3B3B3"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/song2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/song1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="20dp">
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/song2" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="283dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="0dp"
+            android:layout_toEndOf="@+id/imageView17"
+            app:srcCompat="@drawable/more" />
+
+        <TextView
+            android:id="@+id/songname2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/imageView17"
+            android:fontFamily="@font/avenir"
+            android:text="chance with you"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/artist2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/songname2"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="-2dp"
+            android:layout_toEndOf="@+id/imageView17"
+            android:fontFamily="@font/avenir"
+            android:text="mehro"
+            android:textAlignment="center"
+            android:textColor="#B3B3B3"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/song2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="20dp">
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/song3" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="283dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="0dp"
+            android:layout_toEndOf="@+id/imageView19"
+            app:srcCompat="@drawable/more" />
+
+        <TextView
+            android:id="@+id/songname3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/imageView19"
+            android:fontFamily="@font/avenir"
+            android:text="Nirvana"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/artist3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/songname3"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="-2dp"
+            android:layout_toEndOf="@+id/imageView19"
+            android:fontFamily="@font/avenir"
+            android:text="ELLIANA"
+            android:textAlignment="center"
+            android:textColor="#B3B3B3"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/playtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView5"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@+id/imageView9"
+        android:fontFamily="@font/avenir"
+        android:text="6h 48m"
+        android:textColor="#B3B3B3"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="330dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="47dp"
+        android:fontFamily="@font/avenir"
+        android:text="New and approved indie pop. Cover: No Rome"
+        android:textColor="#B3B3B3"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/Description"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="278dp"
+        app:srcCompat="@drawable/spotify" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/search" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="372dp"
+        app:srcCompat="@drawable/chevron_left" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="52dp"
+        app:srcCompat="@drawable/screen_shot_2021_12_08_at_20_15_1" />
+
+    <TextView
+        android:id="@+id/likes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/avenir"
+        android:text="1,629,592 likes "
+        android:textColor="#B3B3B3"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Description"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="53dp"
+        app:srcCompat="@drawable/ellipse_5" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/likes"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="3dp"
+        app:srcCompat="@drawable/likes" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="466dp"
+        android:layout_marginEnd="28dp"
+        android:layout_toEndOf="@+id/playtime"
+        app:srcCompat="@drawable/play" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignStart="@+id/imageView11"
+        android:layout_alignTop="@+id/imageView11"
+        android:layout_alignEnd="@+id/imageView11"
+        android:layout_alignBottom="@+id/imageView11"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/ellipse_25" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_alignStart="@+id/imageView12"
+        android:layout_alignTop="@+id/imageView12"
+        android:layout_alignEnd="@+id/imageView12"
+        android:layout_alignBottom="@+id/imageView12"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="3dp"
+        app:srcCompat="@drawable/shuffle" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/bottombar" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView21"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/playbar" />
+
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView21"
+        android:layout_alignEnd="@+id/imageView22"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/pause" />
+
+    <ImageView
+        android:id="@+id/bluetooth2"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_alignEnd="@id/imageView25"
+        android:layout_alignBottom="@+id/imageView25"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="-5dp"
+        app:srcCompat="@drawable/bluetooth" />
+
+    <TextView
+        android:id="@+id/songmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView22"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/avenir"
+        android:text="Easy"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="13.5sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/dotmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView22"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/songmain"
+        app:srcCompat="@drawable/ellipse_5" />
+
+    <TextView
+        android:id="@+id/artistmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView22"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="9dp"
+        android:layout_toEndOf="@+id/dotmain"
+        android:fontFamily="@font/avenir"
+        android:text="Troye Sivan"
+        android:textAlignment="center"
+        android:textColor="#B3B3B3"
+        android:textSize="12sp" />
+
+
+    <ImageView
+        android:id="@+id/bluetooth1"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_above="@+id/imageView21"
+        android:layout_marginStart="5dp"
+
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="11dp"
+        android:layout_toEndOf="@+id/imageView23"
+        app:srcCompat="@drawable/bluetooth" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView21"
+        android:layout_alignStart="@+id/imageView22"
+        android:layout_alignTop="@+id/imageView22"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        app:srcCompat="@drawable/song1" />
+
+    <TextView
+        android:id="@+id/audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/bluetooth1"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/bluetooth1"
+        android:text="AIRDOPES"
+        android:textColor="#1ED660"
+        android:textSize="11sp" />
+
+
+
+
+</RelativeLayout>
